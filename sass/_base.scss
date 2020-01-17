@@ -1,0 +1,49 @@
+/*
+
+#b8e994
+#78e08f
+#38ada9
+#079992
+
+*/
+
+:root {
+    --color-primary-lightest: #eeeaff;
+    --color-primary-light: #bcacf8;
+    --color-primary: #9980FA;
+    --color-primary-dark: rgb(44, 46, 136);
+
+    --color-secondary-dim:rgba(253, 167, 223, 0.15);
+    --color-secondary-bright:rgb(250, 199, 232);
+    --color-secondary:#FDA7DF;
+    --color-secondary-dark: #D980FA;
+
+    --color-grey-light-1: #f1f1f1;
+    --color-grey-light-2: #cfcfcf;
+    --color-grey-light-3: #bebebe;
+    --color-grey-light-4: #9c9c9c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background-color: var(--color-primary-dark);
+}
