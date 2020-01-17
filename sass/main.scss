@@ -1,5 +1,14 @@
-@import "animations";
-@import "base";
-@import "components";
-@import "layout";
-@import "home";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/logo";
+
+@import "layout/header";
+@import "layout/navigation";
+
+@import "pages/home";

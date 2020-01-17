@@ -8,6 +8,7 @@
 */
 
 :root {
+    // COLORS
     --color-primary-lightest: #eeeaff;
     --color-primary-light: #bcacf8;
     --color-primary: #9980FA;
@@ -22,28 +23,7 @@
     --color-grey-light-2: #cfcfcf;
     --color-grey-light-3: #bebebe;
     --color-grey-light-4: #9c9c9c;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 1.6;
-    background-color: var(--color-primary-dark);
+    // FONT
+    $default-font-size: 1.6rem;
 }
