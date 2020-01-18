@@ -1,0 +1,10 @@
+//////////////////////////////////////////////////////////////////////////////////
+// EXTERNAL LINKS
+.external-link {
+    text-decoration: none;
+    
+    &:link,
+    &:visited {
+        color: var(--color-secondary);
+    }
+}
