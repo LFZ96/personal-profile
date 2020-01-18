@@ -12,6 +12,8 @@ body {
 
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     &--main {
         color: var(--color-primary-lightest);
@@ -28,7 +30,11 @@ body {
 //////////////////////////////////////////////////////////////////////////////////
 // HEADING SECONDARY
 .heading-secondary {
-        color: var(--color-primary-lightest);
+    align-self: flex-start;
+    
+    color: var(--color-primary-lightest);
+    font-size: 4rem;
+    margin-bottom: 3rem;
 
     &__icon {
 
@@ -39,4 +45,6 @@ body {
 // PARAGRAPH
 .paragraph {
     color: var(--color-primary-light);
+    font-size: 2rem;
+    
 }

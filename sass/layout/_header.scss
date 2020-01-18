@@ -1,24 +1,22 @@
 //////////////////////////////////////////////////////////////////////////////////
 // HEADER
 .header {
-    height: 100vh;
+    // border: 1px solid #000;
+    margin-bottom: 10%;
+    padding: 4rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 
     &__logo-box {
-        margin-top: 4rem;
-        margin-left: 4rem;
+        // border: 1px solid #000;
+        display: flex;
+        align-items: center;
     }
 
     &__nav {
-        margin-top: 4rem;
-        margin-right: 4rem;
-    }
-
-    &__text-box {
-        align-self: center;
+        // border: 1px solid #000;
     }
 }
