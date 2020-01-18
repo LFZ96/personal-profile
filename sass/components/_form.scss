@@ -1,0 +1,11 @@
+.form {
+    
+    &__input[type=text] {
+        padding: 0.8rem 3rem;
+        border-radius: 10px;
+        background-color: var(--color-primary-dark);
+        color: white;
+        outline: none;
+        border: 1px solid #fff;
+      }
+}

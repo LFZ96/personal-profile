@@ -2,7 +2,7 @@
 // HEADER
 .header {
     // border: 1px solid #000;
-    margin-bottom: 10%;
+    // margin-bottom: 10%;
     padding: 4rem;
 
     display: flex;
@@ -18,5 +18,6 @@
 
     &__nav {
         // border: 1px solid #000;
+        animation: moveInRight 0.8s;
     }
 }
