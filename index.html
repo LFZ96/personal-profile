@@ -37,9 +37,9 @@
         <header class="header">
             <div class="header__logo-box">
                 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
-                    <symbol id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.64 239.34">
-                        <path d="M133.72 212.99H61.94v-1.05l130.2-190.75V2.64H2.46v235.9h191.43v-25.55h-60.17zM32.91 28.19h119.68v1.05L32.91 204.27V28.19zm148.47 200.22H14.61V13.85h4v210.56h162.77v4z"/>
-                        </symbol>
+                    <symbol id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.55 286.02">
+                        <path d="M80.25 249.45v-1.2l148.8-218V9.05h-182v.01H12.33v269.6h150v-.01h68.72v-29.2H80.25zM47.13 38.25h136.72v1.2L47.13 239.42V38.25zm169.49 233.1H22.96v-14h.03l-.01-235.7h14l.01 235.71h179.63v13.99z"/>
+                    </symbol>
                 </svg>
                 <svg class="logo-box__logo"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
             </div>
@@ -72,9 +72,25 @@
                             <use xlink:href="img/sprite.svg#icon-user"></use>
                         </svg>
                     </h2>
-                    <p class="paragraph">
-                        Hello! My name is Logan Zipkes and I am an aspiring software engineer who recently graduated from <a href="https://www.utexas.edu/" target="_blank" class="external-link">The University of Texas at Austin</a>. I enjoy designing and building webites and web apps that make others' lives just a little bit easier and more comfortable. I am currently looking for work as a frontend engineer.
-                    </p>
+                    <div class="about-box">
+                        <div class="about-box__description">
+                            <p class="about-box__paragraph paragraph">
+                                Hello! My name is Logan Zipkes and I am an aspiring frontend engineer looking for full time work. I recently graduated from The University of Texas at Austin and have 4 years of programming experience and 1 summer of professional development exprience under my belt.
+                            </p>
+                            <p class="about-box__paragraph paragraph">
+                                I have a passion for designing and building things for others to use on the Internet in order to make others' lives just a little bit easier and more comfortable.
+                            </p>
+                            <!-- <ul class="about-box__technologies">
+                                <li class="about-box__skill">JavaScript (ES6)</li>
+                                <li class="about-box__skill">HTML and (S)CSS</li>
+                                <li class="about-box__skill">React</li>
+                                <li class="about-box__skill">Node.js</li>
+                                <li class="about-box__skill">Express</li>
+                                <li class="about-box__skill">MongoDB</li>
+                            </ul> -->
+                        </div>
+                        <img src="https://source.unsplash.com/random" alt="personal photo" class="about-box__img">
+                    </div>
                 </div>
             </section>
     
@@ -90,52 +106,54 @@
                             <img src="https://source.unsplash.com/random" alt="project 1" class="project__img">
                         </div>
                         <div class="project__details">
+                            <h3 class="project__title">UTutor</h3>
                             <p class="project__description paragraph">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatem voluptate. Repellat commodi sequi repellendus. Autem dolor asperiores at dignissimos cupiditate reprehenderit commodi veritatis suscipit iusto doloribus, esse, molestiae quisquam!
+                                A web application that allows different groups of people to get involved with tutoring at the University of Texas at Austin. Students are able to use the website to lookup a specific university course they require tutoring for, and tutors that have signed up to tutor that course will be provided to them to get in contact with. Likewise, if someone wants to become a tutor, they can simply fill out an application for the courses they wish to help out with, and, if accepted, will be added to the database of tutors.
                             </p>
                             <ul class="project__technologies">
+                                <li class="project__skill">PHP</li>
                                 <li class="project__skill">JavaScript</li>
-                                <li class="project__skill">HTML</li>
-                                <li class="project__skill">CSS</li>
-                                <li class="project__skill">React</li>
+                                <li class="project__skill">HTML and CSS</li>
+                                <li class="project__skill">MySQL</li>
                             </ul>
                             <div class="project__buttons">
-                                <a href="#" target="_blank" class="project__buttons--github-btn">
+                                <a href="https://github.com/LFZ96/UTutor" target="_blank" class="project__buttons--github-btn">
                                     <svg class="project__buttons--icon">
                                         <use xlink:href="img/sprite.svg#icon-github"></use>
                                     </svg>
                                 </a>
-                                <a href="#" target="_blank" class="project__buttons--site-btn">
+                                <!-- <a href="#" target="_blank" class="project__buttons--site-btn">
                                     <svg class="project__buttons--icon">
                                         <use xlink:href="img/sprite1.svg#icon-earth"></use>
                                     </svg>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
                     <div class="project__box">
-                        <img src="https://source.unsplash.com/random" alt="project 1" class="project__img">
+                        <div class="project__img-box">
+                            <img src="https://source.unsplash.com/random" alt="project 1" class="project__img">
+                        </div>
                         <div class="project__details">
+                            <h3 class="project__title">LinkedOut</h3>
                             <p class="project__description paragraph">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatem voluptate. Repellat commodi sequi repellendus. Autem dolor asperiores at dignissimos cupiditate reprehenderit commodi veritatis suscipit iusto doloribus, esse, molestiae quisquam!
+                                An iOS application that allows users to create a profile and take a Myers-Briggs-esque personality test. The results will be stored with the user’s profile, and from there, other users will be able to connect with each other and form groups based off of the personalities that were acquired from the initial test. Users can form these groups and message each other for whatever reason they choose: recruiting for a company, making a study group, looking for someone who thinks a certain way, etc.
                             </p>
                             <ul class="project__technologies">
-                                <li class="project__skill">JavaScript</li>
-                                <li class="project__skill">HTML</li>
-                                <li class="project__skill">CSS</li>
-                                <li class="project__skill">React</li>
+                                <li class="project__skill">Swift</li>
+                                <li class="project__skill">Firebase</li>
                             </ul>
                             <div class="project__buttons">
-                                <a href="#" target="_blank" class="project__buttons--github-btn">
+                                <a href="https://github.com/LFZ96/LinkedOut" target="_blank" class="project__buttons--github-btn">
                                     <svg class="project__buttons--icon">
                                         <use xlink:href="img/sprite.svg#icon-github"></use>
                                     </svg>
                                 </a>
-                                <a href="#" target="_blank" class="project__buttons--site-btn">
+                                <!-- <a href="#" target="_blank" class="project__buttons--site-btn">
                                     <svg class="project__buttons--icon">
                                         <use xlink:href="img/sprite1.svg#icon-earth"></use>
                                     </svg>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -150,23 +168,32 @@
                                 <use xlink:href="img/sprite.svg#icon-bubble"></use>
                             </svg>
                         </h2>
-                        <form action="#" class="form" autocomplete="off">
+
+                        <p class="form__paragraph">
+                            Think we could work together? Fill out the form below and I'll get back to you soon!
+                        </p>
+
+                        <form action="#" class="form">
                             <div class="form__group">
-                                <input type="text" class="form__input" placeholder="Full Name" id="name" required>
-                                <label for="name" class="form__label">Full Name</label>
+                                <input type="text" class="form__input" placeholder="Full Name" id="name" required autocomplete="off">
+                                <!-- <label for="name" class="form__label">Full Name</label> -->
                             </div>
                             <div class="form__group">
                                 <input type="email" class="form__input" placeholder="Email Address" id="email" required>
-                                <label for="email" class="form__label">Email</label>
+                                <!-- <label for="email" class="form__label">Email</label> -->
                             </div>
                             <div class="form__group">
-                                <textarea name="content" id="content" cols="30" rows="10"></textarea>
-                                <label for="content" class="form__label">Message</label>
+                                <textarea name="content" id="content" cols="30" rows="10" required placeholder="Message" class="form__input form__textarea"></textarea>
+                                <!-- <label for="content" class="form__label">Message</label> -->
                             </div>
+                            <button class="form__btn" type="submit">Submit</button>
                         </form>
                     </div>
                 </div>
             </section>
         </main>
+        <footer class="footer">
+            <p class="footer__paragraph">Logan Zipkes &copy;2020</p>
+        </footer>
     </body>
 </html>

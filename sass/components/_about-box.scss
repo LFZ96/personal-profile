@@ -2,11 +2,39 @@
 // ABOUT SECTION BOX
 .about-box {
 
-    &__heading {
-        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+
+        flex: 0 0 50%;
     }
 
     &__paragraph {
+        margin-right: 5rem;
 
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__img {
+        height: 30rem;
+        width: 30rem;
+        border-radius: 5px;
+    }
+
+    &__technologies {
+        list-style: none;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__skill {
+        color: var(--color-primary-light);
     }
 }

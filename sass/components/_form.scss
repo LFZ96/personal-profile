@@ -1,11 +1,63 @@
 .form {
-    
-    &__input[type=text] {
-        padding: 0.8rem 3rem;
-        border-radius: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+    &__group {
+        &:not(:last-child) {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    &__textarea {
+        resize: none;
+    }
+
+    &__input {
+        font-family: inherit;
         background-color: var(--color-primary-dark);
-        color: white;
-        outline: none;
-        border: 1px solid #fff;
-      }
+        border: none;
+        border-radius: 2px;
+        padding: 1rem 2rem 1rem 1rem;
+        color: var(--color-primary-lightest);
+        border-bottom: 3px solid transparent;
+        border-left: 3px solid transparent;
+        width: 100%;
+        transition: all 0.2s;
+
+        &:focus {
+            outline: none;
+            
+            border-bottom: 3px solid var(--color-secondary);
+            border-left: 3px solid var(--color-secondary);
+        }
+
+        &::-webkit-input-placeholder {
+            color: var(--color-primary-light);
+        }
+    }
+
+    &__btn {
+        border: 2px solid var(--color-secondary);
+        background-color: transparent;
+        color: var(--color-secondary);
+        padding: 1rem 2rem;
+        font-family: inherit;
+        font-size: 1.9rem;
+        cursor: pointer;
+        border-radius: 2px;
+
+        align-self: flex-end;
+
+        &:hover,
+        &:active {
+            background-color: var(--color-secondary-dim);
+        }
+    }
+
+    &__paragraph {
+        font-size: 1.8rem;
+        color: var(--color-primary-lightest);
+        margin-bottom: 3rem;
+    }
 }

@@ -1,0 +1,14 @@
+.footer {
+    height: 10rem;
+    background-color: var(--color-primary-footer);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__paragraph {
+        font-size: 1.6rem;
+        color: var(--color-primary);
+        text-transform: uppercase;
+    }
+}
