@@ -12,7 +12,7 @@
 .section {
 
     &:not(:last-child) {
-        margin-bottom: 40rem;
+        margin-bottom: 20rem;
     }
 
     &:last-child {
@@ -25,7 +25,7 @@
     // HEADER SECTION
     &__header {
         animation: moveInLeft 0.8s;
-        margin-top: 25rem;
+        margin-top: 13rem;
 
         display: flex;
         justify-content: center;
