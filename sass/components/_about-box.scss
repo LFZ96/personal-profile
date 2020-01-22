@@ -1,6 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // ABOUT SECTION BOX
 .about-box {
+    font-size: 2rem;
 
     display: flex;
     flex-direction: row;
@@ -34,14 +35,24 @@
         position: relative;
     }
 
-    &__technologies {
+    &__list {
         list-style: none;
-
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
-    &__skill {
+    &__technology {
+        line-height: 2.5;
+        display: inline-block;
         color: var(--color-primary-light);
+
+        &::before {
+            content: "";
+            display: inline-block;
+            height: 1rem;
+            width: 1rem;
+            margin-right: 0.5rem;
+            background-image: url(../img/play.svg);
+        }
     }
 }
