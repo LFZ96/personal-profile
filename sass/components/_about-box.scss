@@ -19,6 +19,7 @@
         font-size: 2rem;
         line-height: 2.5;
         width: 100%;
+        margin-right: 10rem;
         // align-self: center;
 
         &:not(:last-child) {
@@ -27,9 +28,10 @@
     }
 
     &__img {
-        height: 40rem;
+        height: 25rem;
         width: auto;
         border-radius: 5px;
+        position: relative;
     }
 
     &__technologies {

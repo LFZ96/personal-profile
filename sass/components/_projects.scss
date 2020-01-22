@@ -55,7 +55,8 @@
     }
 
     &__description {
-
+        font-size: 1.6rem;
+        line-height: 1.7;
     }
 
     &__technologies {
@@ -92,7 +93,7 @@
         &--icon {
             height: 3rem;
             width: 3rem;
-            margin: 0 1.4rem;
+            margin-right: 1.4rem;
             fill: var(--color-secondary);
         }
     }
