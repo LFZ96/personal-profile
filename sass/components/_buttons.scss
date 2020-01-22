@@ -1,0 +1,21 @@
+.heading__cta {
+    font-size: 1.8rem;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    border-radius: 3px;
+    
+    &:link,
+    &:visited {
+        color: var(--color-secondary);
+        background-color: transparent;
+        border: 2px solid var(--color-secondary);
+        transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active {
+        color: var(--color-secondary-bright);
+        background-color: var(--color-secondary-dim);
+        border: 2px solid var(--color-secondary-bright);
+    }
+}

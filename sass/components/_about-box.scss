@@ -3,18 +3,23 @@
 .about-box {
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    
 
-    &__description {
-        display: flex;
-        flex-direction: column;
+    // &__description {
+    //     margin-right: 10rem;
 
-        flex: 0 0 50%;
-    }
+    //     display: flex;
+    //     flex-direction: column;
+    //     // flex: 0 0 50%;
+    // }
 
     &__paragraph {
-        margin-right: 5rem;
+        font-size: 2rem;
+        line-height: 2.5;
+        width: 100%;
+        // align-self: center;
 
         &:not(:last-child) {
             margin-bottom: 3rem;
@@ -22,7 +27,7 @@
     }
 
     &__img {
-        height: 50rem;
+        height: 40rem;
         width: auto;
         border-radius: 5px;
     }

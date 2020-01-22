@@ -14,6 +14,7 @@
     &__item {
         display: inline-block;
         transition: all  0.2s;
+        // margin-right: 3rem;
 
         &:not(:last-child) {
             margin-right: 4rem;
@@ -27,7 +28,7 @@
 
         &:link,
         &:visited {
-            color: var(--color-primary-light);
+            color: var(--color-tertiary);
             
         }
 
@@ -46,6 +47,7 @@
         &--cta:visited {
             border: 1px solid var(--color-secondary);
             color: var(--color-secondary);
+            transition: all 0.2s;
         }
 
         &--cta:hover,
@@ -67,9 +69,9 @@
     &::after {
         content: "";
         display: block;
-        width: 0.1rem;
+        width: 0.2rem;
         height: 10rem;
-        background-color: var(--color-primary-light);
+        background-color: var(--color-tertiary);
         margin: 0px auto;
     }
 
@@ -91,12 +93,12 @@
     &__icon {
         height: 2.5rem;
         width: 2.5rem;
-        fill: var(--color-primary-light);
+        fill: var(--color-secondary);
         transition: all 0.2s;
 
         &:hover,
         &:active {
-            fill: var(--color-secondary);
+            fill: var(--color-secondary-bright);
             transform: scale(1.15);
         }
     }
