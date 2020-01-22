@@ -230,12 +230,17 @@ body {
     margin-right: 1rem; }
 
 .project__buttons {
+  text-decoration: none;
   margin-top: 3rem; }
   .project__buttons--icon {
     height: 3rem;
     width: 3rem;
-    margin-right: 1.4rem;
     fill: var(--color-secondary); }
+
+.project__button {
+  text-decoration: none; }
+  .project__button:not(:last-child) {
+    margin-right: 3rem; }
 
 .section-box {
   width: 75%; }

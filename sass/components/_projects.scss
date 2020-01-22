@@ -79,22 +79,30 @@
     }
 
     &__buttons {
-        
+        text-decoration: none;
         margin-top: 3rem;
 
         &--github-btn {
-
+            
         }
 
         &--site-btn {
-
+        
         }
 
         &--icon {
             height: 3rem;
             width: 3rem;
-            margin-right: 1.4rem;
             fill: var(--color-secondary);
         }
     }
+
+    &__button {
+        text-decoration: none;
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
+
 }
