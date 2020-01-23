@@ -16,6 +16,11 @@
         transition: all  0.2s;
         // margin-right: 3rem;
 
+        &:hover,
+        &:active {
+            transform: scale(1.05);
+        }
+
         &:not(:last-child) {
             margin-right: 4rem;
         }
@@ -29,13 +34,12 @@
         &:link,
         &:visited {
             color: var(--color-tertiary);
-            
+            transition: all 0.2s;
         }
 
         &:hover,
         &:active {
             color: var(--color-secondary);
-
         }
 
         &--cta {
@@ -94,7 +98,7 @@
         height: 2.5rem;
         width: 2.5rem;
         fill: var(--color-secondary);
-        transition: all 0.2s;
+        transition: all 0.1s;
 
         &:hover,
         &:active {

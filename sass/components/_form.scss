@@ -85,11 +85,13 @@
         &:link,
         &:visited {
             color: var(--color-secondary);
+            transition: all 0.2s;
         }
 
         &:hover,
         &:active {
             background-color: var(--color-secondary-dim);
+            transform: scale(1.03);
         }
     }
 }
