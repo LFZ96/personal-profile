@@ -357,7 +357,7 @@ body {
 .section {
   width: 75%; }
   .section__header {
-    margin-top: 25rem;
+    margin-top: 15rem;
     animation: moveInLeft 0.8s;
     display: flex;
     flex-direction: column;
