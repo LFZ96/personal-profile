@@ -1,11 +1,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 // ABOUT SECTION BOX
 .about-box {
+    width: 100%;
     font-size: 2rem;
 
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     
 
     // &__description {

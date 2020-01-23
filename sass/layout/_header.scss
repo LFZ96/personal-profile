@@ -1,12 +1,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 // HEADER
 .header {
-    // border: 1px solid #000;
-    // margin-bottom: 10%;
-    // position: fixed;
-    // width: 100%;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-primary-darkest);
+    box-shadow: 0 0.5rem 2rem var(--box-shadow);
+    z-index: 100;
 
-    padding: 4rem;
+    padding: 1.5rem 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

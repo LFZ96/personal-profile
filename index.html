@@ -2,8 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Logan Zipkes &mdash; Software Engineer</title>
+        <title>Logan Zipkes &mdash; Front-End Engineer</title>
 
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
+        <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> -->
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <!-- <link rel="manifest" href="/site.webmanifest"> -->
+        <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
+        <!-- <meta name="msapplication-TileColor" content="#da532c"> -->
+        <!-- <meta name="theme-color" content="#ffffff"> -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -35,20 +42,21 @@
             </ul>
         </nav>
 
-        <header class="header">
+        <header id="header" class="header">
             <div class="header__logo-box">
-                <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
-                    <symbol id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.55 286.02">
-                        <path d="M80.25 249.45v-1.2l148.8-218V9.05h-182v.01H12.33v269.6h150v-.01h68.72v-29.2H80.25zM47.13 38.25h136.72v1.2L47.13 239.42V38.25zm169.49 233.1H22.96v-14h.03l-.01-235.7h14l.01 235.71h179.63v13.99z"/>
-                    </symbol>
-                </svg>
-                <svg class="logo-box__logo"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
+                <a href="#header" class="header__logo-box--link">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+                        <symbol id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.55 286.02">
+                            <path d="M80.25 249.45v-1.2l148.8-218V9.05h-182v.01H12.33v269.6h150v-.01h68.72v-29.2H80.25zM47.13 38.25h136.72v1.2L47.13 239.42V38.25zm169.49 233.1H22.96v-14h.03l-.01-235.7h14l.01 235.71h179.63v13.99z"/>
+                        </symbol>
+                    </svg>
+                    <svg class="logo-box__logo"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
+                </a>
             </div>
 
             <nav class="header__nav">
                 <ul class="navigation__list">
                     <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
-                    <!-- <li class="navigation__item"><a href="" class="navigation__link">Experience</a></li> -->
                     <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
                     <li class="navigation__item"><a href="#contact" class="navigation__link">Contact</a></li>
                     <li class="navigation__item navigation__item--cta"><a href="#" class="navigation__link navigation__link--cta">R&eacute;sum&eacute;</a></li>
@@ -73,7 +81,7 @@
                 </h2>
                 <div class="about-box">
                     <p class="about-box__paragraph paragraph">
-                        Hello! My name is Logan Zipkes and I am an aspiring front-end engineer looking for full time work. I recently graduated from The University of Texas at Austin and have 4 years of programming experience and 1 summer of professional development exprience under my belt.
+                        Hello! My name is Logan Zipkes and I am a front-end engineer looking for full time work. I have been programming for four years and have internship experience as a software developer. Technologies that I use on a daily basis are React, Sassy CSS, and Express with Node.js.
                     </p>
                     <img src="img/profile-pic.jpeg" alt="personal photo" class="about-box__img">
                 </div>
@@ -119,7 +127,7 @@
                 </div>
                 <div class="project__box">
                     <div class="project__img-box">
-                        <img src="https://source.unsplash.com/random" alt="project 1" class="project__img">
+                        <img src="img/linked-out.jpg" alt="project 1" class="project__img">
                     </div>
                     <div class="project__details">
                         <div class="project__header">
@@ -160,7 +168,6 @@
                         Think we could work together? Shoot me an email at the button below and I'll get back to you soon!
                     </p>
                     <a href="mailto:loganzipkes@gmail.com" class="contact-box__btn">Email</a>
-                    <!-- <button class="contact__btn"><a href="mailto:loganzipkes@gmail.com" class="contact__email">Email</a></button> -->
                 </div>
                 <!-- <div class="form-box">
                     <h2 class="heading-secondary">Contact Me
@@ -189,5 +196,6 @@
         <footer class="footer">
             <p class="footer__paragraph">Built by Logan Zipkes</p>
         </footer>
+        <script src="javascript/app.js" type="text/javascript"></script>
     </body>
 </html>

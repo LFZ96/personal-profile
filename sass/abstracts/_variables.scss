@@ -6,7 +6,7 @@
     --color-primary-dark: #20304F;
     --color-primary-darkest: #18243B;
 
-    --color-primary-footer: #101827;
+    --color-primary-footer: rgb(16, 24, 39);
 
     --color-secondary-dim: rgba(248, 95, 115, 0.247);
     --color-secondary-bright: #FBAFB9;
@@ -20,6 +20,8 @@
     --color-grey-light-2: #cfcfcf;
     --color-grey-light-3: #bebebe;
     --color-grey-light-4: #9c9c9c;
+
+    --box-shadow: rgba(16,24,39,0.7);
 
     // FONT
     $default-font-size: 1.6rem;
