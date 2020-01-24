@@ -1,60 +1,25 @@
 //////////////////////////////////////////////////////////////////////////////////
 // ABOUT SECTION BOX
 .about-box {
-    width: 100%;
     font-size: 2rem;
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    
-
-    // &__description {
-    //     margin-right: 10rem;
-
-    //     display: flex;
-    //     flex-direction: column;
-    //     // flex: 0 0 50%;
-    // }
+    justify-content: center;
+    align-items: flex-start;
 
     &__paragraph {
+        flex: 0 0 66.6666%;
+
         font-size: 2rem;
         line-height: 2.5;
-        width: 100%;
-        margin-right: 10rem;
-        // align-self: center;
-
-        &:not(:last-child) {
-            margin-bottom: 3rem;
-        }
+        margin-right: 5rem;
     }
 
     &__img {
         height: 25rem;
         width: auto;
+
         border-radius: 5px;
-        position: relative;
-    }
-
-    &__list {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-    }
-
-    &__technology {
-        line-height: 2.5;
-        display: inline-block;
-        color: var(--color-primary-light);
-
-        &::before {
-            content: "";
-            display: inline-block;
-            height: 1rem;
-            width: 1rem;
-            margin-right: 0.5rem;
-            background-image: url(../img/play.svg);
-        }
     }
 }
