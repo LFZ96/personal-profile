@@ -1,8 +1,6 @@
 .project {
     
-    &__box {
-        // border: 1px solid #000;
-        
+    &__box {        
         padding-bottom: 4rem;
 
         &:not(:last-child) {
@@ -14,15 +12,21 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+
+        @include respond(tablet-port) {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
     }
 
     &__header {
         width: 100%;
         margin-bottom: 2rem;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        // justify-content: space-between;
+        align-items: flex-start;
 
         // @media only screen and (max-width: 1095px) {
         //     flex-direction: column;
@@ -35,39 +39,67 @@
         //     // justify-content: flex-start;
         //     align-items: flex-start;
         // }
+
+        @include respond(large-desktop) { // 768px
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @include respond(tablet-port) {
+            align-items: center;
+        }
     }
 
     &__title {
         font-size: 3rem;
         color: var(--color-secondary);
+        margin-bottom: 1rem;
         // margin-right: 3rem;
         // margin-bottom: 2.5rem;
         
         // @media only screen and (max-width: 1095px) {
         //     margin-bottom: 1rem;
         // }
+        @include respond(large-desktop) { // 768px
+            margin-bottom: 0;
+        }
     }
 
     &__img-box {
         height: 30rem;
         width: 30rem;
         margin-right: 3rem;
+
+        @include respond(tablet-land) {
+            height: 25rem;
+            width: 25rem;
+        }
     }
 
     &__img {
-        // border: 1px solid #000;
         height: 30rem;
         width: 30rem;
         border-radius: 5px;
         margin-right: 3rem;
+
+        @include respond(tablet-land) {
+            height: 25rem;
+            width: 25rem;
+        }
     }
 
     &__details {
-        // border: 1px solid #000;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+
+        @include respond(tablet-port) {
+            margin-top: 2rem;
+
+            align-items: center;
+        }
     }
 
     &__description {
@@ -78,6 +110,12 @@
     &__technologies {
         list-style: none;
         // margin-top: 2.5rem;
+
+        // @include respond(tablet-port) {
+        //     display: flex;
+        //     flex-direction: row;
+        //     flex-wrap: wrap;
+        // }
     }
 
     &__skill {

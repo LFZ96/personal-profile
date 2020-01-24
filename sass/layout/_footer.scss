@@ -17,6 +17,9 @@
     // @media only screen and (max-width: 1150px) {
     //     height: 15rem;
     // }
+    @include respond(tablet-land) {
+        height: 15rem;
+    }
 }
 
 .footer-nav {
@@ -52,7 +55,7 @@
         }
     }
 
-    // @media only screen and (max-width: 1150px) {
-    //     display: initial;
-    // }
+    @include respond(tablet-land) {
+        display: initial;
+    }
 }

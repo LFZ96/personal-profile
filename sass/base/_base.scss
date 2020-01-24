@@ -10,15 +10,15 @@ html {
     font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
     scroll-behavior: smooth;
 
-    @include respond(large-desktop) {
+    @include respond(large-desktop) { // 2200px
         font-size: 75%; // 1rem = 12px 
     }
 
-    @include respond(laptop) {
+    @include respond(laptop) { // 1200px
         font-size: 56.25%; // 1rem = 9px
     }
 
-    @include respond(tablet-port) {
+    @include respond(tablet-port) { // 768px
         font-size: 50%; // 1rem = 8px
     }
 }

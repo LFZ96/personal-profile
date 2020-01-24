@@ -69,10 +69,10 @@
     position: fixed;
     bottom: 0;
     right: 4rem;
-
-    // @media only screen and (max-width: 1150px) {
-    //     display: none;
-    // }
+    
+    @include respond(tablet-land) {
+        display: none;
+    }
 
     &::after {
         content: "";
