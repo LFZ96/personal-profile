@@ -22,7 +22,7 @@ body {
         display: inline-block;
 
         @include respond(mobile) {
-            font-size: 7rem;
+            font-size: 6rem;
         }
     }
 

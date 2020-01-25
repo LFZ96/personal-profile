@@ -24,6 +24,7 @@
         @include respond(tablet-port) {
             margin-bottom: 6rem;
             line-height: 2;
+            margin-right: 0;
         }
     }
 

@@ -78,7 +78,7 @@ body {
     display: inline-block; }
     @media (max-width: 37.5em) {
       .heading-primary--main {
-        font-size: 7rem; } }
+        font-size: 6rem; } }
   .heading-primary--sub {
     color: var(--color-tertiary);
     font-size: 5rem;
@@ -128,7 +128,8 @@ body {
     @media (max-width: 48em) {
       .about-box__paragraph {
         margin-bottom: 6rem;
-        line-height: 2; } }
+        line-height: 2;
+        margin-right: 0; } }
   .about-box__img {
     height: 25rem;
     width: auto;
