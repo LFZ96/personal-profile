@@ -22,7 +22,8 @@
         margin-right: 5rem;
 
         @include respond(tablet-port) {
-            margin-bottom: 3rem;
+            margin-bottom: 6rem;
+            line-height: 2;
         }
     }
 

@@ -20,6 +20,10 @@ body {
         color: var(--color-primary-lightest);
         font-size: 9rem;
         display: inline-block;
+
+        @include respond(mobile) {
+            font-size: 7rem;
+        }
     }
 
     &--sub {
@@ -27,6 +31,10 @@ body {
         font-size: 5rem;
         margin-top: 0;
         display: block;
+
+        @include respond(mobile) {
+            font-size: 4rem;
+        }
     }
 
     

@@ -14,14 +14,29 @@
     justify-content: space-between;
     align-items: center;
 
+    @include respond(mobile) {
+        padding: 0.5rem 2rem;
+        font-size: 2rem;
+
+        flex-direction: column;
+    }
+
     &__logo-box {
         // border: 1px solid #000;
         display: flex;
         align-items: center;
+
+        @include respond(mobile) {
+            margin: 2rem 0;
+        }
     }
 
     &__nav {
         // border: 1px solid #000;
         animation: moveInRight 0.8s;
+
+        @include respond(mobile) {
+            margin-bottom: 3rem;
+        }
     }
 }

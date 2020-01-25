@@ -74,6 +74,7 @@
         @include respond(tablet-land) {
             height: 25rem;
             width: 25rem;
+            margin-bottom: 2rem;
         }
     }
 
@@ -153,6 +154,11 @@
             &:hover {
                 transform: scale(1.1);
                 fill: var(--color-secondary-bright);
+            }
+
+            @include respond(tablet-port) {
+                height: 5rem;
+                width: 5rem;
             }
         }
     }

@@ -9,6 +9,10 @@
         display: flex;
         flex-wrap: wrap;
     
+        @include respond(mobile-small) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     &__item {
@@ -23,13 +27,16 @@
 
         &:not(:last-child) {
             margin-right: 4rem;
+
+            @include respond(mobile-small) {
+                margin: 0 2rem 0 2rem;
+            }
         }
     }
 
     &__link {
         text-decoration: none;
         padding: 1rem;
-        
 
         &:link,
         &:visited {
@@ -45,6 +52,11 @@
         &--cta {
             border-radius: 3px;
             color: var(--color-secondary);
+
+            @include respond(mobile-small) {
+                display: block;
+                margin-top: 2rem;
+            }
         }
 
         &--cta:link,

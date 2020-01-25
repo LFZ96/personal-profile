@@ -21,6 +21,10 @@ html {
     @include respond(tablet-port) { // 768px
         font-size: 50%; // 1rem = 8px
     }
+
+    @include respond(mobile) { // 600px
+        font-size: 43.75%; // 1rem = 7px
+    }
 }
 
 body {

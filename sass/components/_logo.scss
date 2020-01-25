@@ -11,5 +11,10 @@
         &:hover {
             fill: var(--color-tertiary);
         }
+
+        @include respond(mobile) {
+            height: 7rem;
+            width: 7rem;
+        }
     }
 }
