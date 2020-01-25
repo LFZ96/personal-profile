@@ -485,6 +485,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start; }
+    @media (max-width: 1300px) {
+      .section__header {
+        margin-top: 15rem; } }
   .section__about {
     margin-top: 23rem;
     padding-top: 10rem;

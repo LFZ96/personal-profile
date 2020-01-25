@@ -73,6 +73,10 @@
     &__header {
         margin-top: 25rem;
 
+        @media (max-width: 1300px) {
+            margin-top: 15rem;
+        }
+
         animation: moveInLeft 0.8s;
 
         display: flex;
