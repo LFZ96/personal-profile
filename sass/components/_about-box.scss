@@ -2,6 +2,7 @@
 // ABOUT SECTION BOX
 .about-box {
     font-size: 2rem;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
@@ -15,11 +16,11 @@
     }
 
     &__paragraph {
-        flex: 0 0 66.6666%;
+        // flex: 0 0 66.6666%;
 
         font-size: 1.8rem;
         line-height: 2.5;
-        margin-right: 5rem;
+        margin-right: 2rem;
 
         @include respond(tablet-port) {
             margin-bottom: 6rem;
