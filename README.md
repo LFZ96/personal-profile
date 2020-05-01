@@ -16,7 +16,7 @@ The webpage contains a title section, an 'About Me' section, a 'Projects' sectio
 
 
 #### Todo:
-- [] Update profile picture in 'About' section
-- [] Link personal blog to actual page in 'Project' section
-- [] Upload gif of personal blog to 'Project' section with computer screen cutout
-- [] Possibly add tech SVGs to 'About' section
+- [ ] Update profile picture in 'About' section
+- [ ] Link personal blog to actual page in 'Project' section
+- [ ] Upload gif of personal blog to 'Project' section with computer screen cutout
+- [ ] Possibly add tech SVGs to 'About' section
