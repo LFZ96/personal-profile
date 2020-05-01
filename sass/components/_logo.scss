@@ -8,9 +8,9 @@
         fill: var(--color-secondary);
         transition: all 0.3s;
 
-        &:hover {
-            fill: var(--color-tertiary);
-        }
+        // &:hover {
+        //     fill: var(--color-tertiary);
+        // }
 
         @include respond(mobile) {
             height: 7rem;

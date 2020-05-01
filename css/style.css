@@ -1,6 +1,6 @@
 :root {
   --color-primary-lightest: #D4D8DF;
-  --color-primary-light: #7E8AA1;
+  --color-primary-light: rgb(182, 191, 206);
   --color-primary: #283C63;
   --color-primary-dark: #20304F;
   --color-primary-darkest: #18243B;
@@ -190,8 +190,6 @@ body {
   width: 5rem;
   fill: var(--color-secondary);
   transition: all 0.3s; }
-  .logo-box__logo:hover {
-    fill: var(--color-tertiary); }
   @media (max-width: 37.5em) {
     .logo-box__logo {
       height: 7rem;

@@ -13,3 +13,10 @@ The layout is simple, intuitive, and effective, while also maintaining an aesthe
 ## What's all included?
 
 The webpage contains a title section, an 'About Me' section, a 'Projects' section, and a 'Contact Me' section. All of which are easily navigable using the navbar that sticks to the top of the browser.
+
+
+#### Todo:
+- [] Update profile picture in 'About' section
+- [] Link personal blog to actual page in 'Project' section
+- [] Upload gif of personal blog to 'Project' section with computer screen cutout
+- [] Possibly add tech SVGs to 'About' section
