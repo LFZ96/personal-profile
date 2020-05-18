@@ -41,9 +41,9 @@
         // }
 
         @include respond(large-desktop) { // 768px
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            // flex-direction: row;
+            // justify-content: center;
+            // align-items: center;
         }
 
         @include respond(tablet-port) {
@@ -123,6 +123,7 @@
         font-size: 1.4rem;
         display: inline-block;
         padding: 0.3rem 0.8rem;
+        margin-bottom: 1rem;
         // margin-top: 2rem;
         border-radius: 100px;
         color: var(--color-primary-light);
